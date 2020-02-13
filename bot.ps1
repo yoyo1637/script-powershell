@@ -23,3 +23,4 @@ do{
 }until($stop)
 
 $closeACK = FRX_Socket-Listen-Close -socket $socket
+echo "test"
